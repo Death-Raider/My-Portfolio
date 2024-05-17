@@ -1,5 +1,4 @@
-import Me1 from '../images/ME1.jpg'
-// import Me2 from '../images/Me2.jpg'
+import Me1 from '../images/ME2.jpg'
 import DataImg from '../images/dataImg.jfif'
 
 import Connection from '../images/connections.png'
@@ -34,9 +33,9 @@ I possess a strong logical foundation that allows me to navigate through C++ pro
 I am always seeking opportunities to grow and contribute to groundbreaking projects in AI/ML. If you're looking for a dedicated and enthusiastic professional
 with a solid foundation in web development and expertise in AI/ML technologies, I would love to connect and explore potential collaborations.
 `,
-        BtnShow: 'false',
+        BtnShow: 'true',
         BtnLabel:"View Resume",
-        link:"",
+        link:"https://drive.google.com/file/d/1qkXwxS0FmdRBt1QHA5TbARcGuxBlx7op/view?usp=sharing",
         href:"",
         image: Me1,
         reverse: 'false',
