@@ -19,16 +19,25 @@ import Process from '../images/Process.png'
 export const InfoDataAbout = [
     {
         Heading: "About me",
-        Para1: `My name is Darsh Kachroo, and I'm a senior in high school majoring in Mathematics and Biology in India. I have ambitions to
-study at Eth Zurich and major in Math and Physics.` ,
-        Para2: `I want my career to be based on research in AI with medicine as it allows for all my interests to align, and I believe AI
-could revolutionize the medical field if more effort is applied. I have a strong desire and discipline for my goals and dreams expressed
-through my various projects on Artificial Intelligence and the self-study needed for it. My interests in the medical field lay with
-Immunology and Psychology; I would love an opportunity to build upon them further.`,
-        BtnShow: 'true',
+        Para1: `Hello everyone! I'm Darsh Kachroo, and I have a strong passion for AI/ML. My ultimate goal is to become a skilled data
+scientist and researcher in this exciting field.\n
+With expertise in web development, data science, and AI/ML, I bring a diverse set of skills to the table. In web development, I am proficient 
+in JavaScript and have hands-on experience with popular frameworks like React for frontend development and Node.js for backend development. I 
+have also worked on creating and training Neural Networks, expanding my knowledge in the realm of AI.` ,
+        Para2: `In the realm of AI development, I specialize in Python. I am well-versed in using frameworks such as TensorFlow, PyTorch, and OpenCV 
+(with and without CUDA) for AI model development. Additionally, I leverage libraries like tkinter, matplotlib, scipy, and pandas for effective data visualization.\n
+Apart from my technical skills, I have a keen interest in mathematics. I have actively pursued research regarding the visualization and application of complex 
+matrices, providing valuable insights in the field. Currently, I am engaged in solving nonlinear systems of fractional differential equations under the guidance 
+of Dr. Kailash Yadav and Dr. Abhishek.\n
+While my main focus has been on AI/ML and web development, I have also dabbled in C++ for personal projects. Although my proficiency in the language is limited, 
+I possess a strong logical foundation that allows me to navigate through C++ programming.\n
+I am always seeking opportunities to grow and contribute to groundbreaking projects in AI/ML. If you're looking for a dedicated and enthusiastic professional
+with a solid foundation in web development and expertise in AI/ML technologies, I would love to connect and explore potential collaborations.
+`,
+        BtnShow: 'false',
         BtnLabel:"View Resume",
         link:"",
-        href:"https://arxiv.org/pdf/1509.02971.pdf",
+        href:"",
         image: Me1,
         reverse: 'false',
         delay: 100
@@ -59,7 +68,7 @@ export const InfoDataConnections = [
                 <>
                     <ul>
                         <li> Discord - Benzo#5968 </li>
-                        <li> Instagram - amazing_bro_99 </li>
+                        <li> Instagram - @darsh_kachroo </li>
                         <li> NPM - @death_raider  </li>
                         <li> Github - Death-Raider </li>
                     </ul><br></br>
@@ -77,7 +86,7 @@ export const InfoDataConnections = [
 export const InfoDataContact = [
     {
         Heading: 'Email',
-        Para1: "Contact me at oragimirox@gmail.com",
+        Para1: "Contact me at kachroo.darsh@gmail.com",
         Para2: "A reply will be provided within 1-2 days. Till then please check out the Projects section",
         BtnShow: 'true',
         BtnLabel:"Go to Projects",
@@ -90,9 +99,11 @@ export const InfoDataContact = [
 export const InfoDataHome = [
     {
         Heading: 'About Me',
-        Para1: `My name is Darsh Kachroo, and I'm a senior in high school majoring in Mathematics and Biology in India. I have ambitions to
-study at Eth Zurich and major in Math and Physics.I want my career to be based on research in AI with medicine as it allows for all my interests
-to align, and I believe AI could revolutionize the medical field if more effort is applied.`,
+        Para1: `Hello everyone! I'm Darsh Kachroo, and I have a strong passion for AI/ML. My ultimate goal is to become a skilled data
+scientist and researcher in this exciting field.\n
+With expertise in web development, data science, and AI/ML, I bring a diverse set of skills to the table. In web development, I am proficient 
+in JavaScript and have hands-on experience with popular frameworks like React for frontend development and Node.js for backend development. I 
+have also worked on creating and training Neural Networks, expanding my knowledge in the realm of AI.`,
         Para2: "See in full length in the About section." ,
         BtnShow: 'true',
         BtnLabel:"About",
@@ -149,7 +160,7 @@ predictions. Our model is trained by combining several neural networks which are
         link:"/project1",
         image: Model,
         reverse: 'false',
-        delay: 100
+        delay:  
     },
     {
         Heading: 'Minecraft Vision (in progress) --Top Project-3',
