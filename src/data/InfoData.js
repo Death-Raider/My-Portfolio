@@ -45,12 +45,12 @@ with a solid foundation in web development and expertise in AI/ML technologies, 
     {
         Heading: 'My Intrests and Accomplishments',
         Para1: `My professional interests lie in vast topics like Linear Algebra, Calculus, Machine Learning, Organic Chemistry, Kinematics, and
-Quantum-Mechanic, whereas my personal interests are working out, Reading Novels, and participating in sports like football. I created a good balance
+Quantum-Mechanics, whereas my personal interests are working out, reading novels, and participating in sports like football. I created a good balance
 between my professional and personal interests which reduced burnout and increased my productivity.`,
         Para2: `My accomplishments are few, but they carry deeply personal meaning to me. I have made a Machine Learning Package on NPM from scratch, and it
 was the project that allowed me to apply and test AI theory firsthand, boosting my confidence. I learned a lot from this experience. Building on that, I have
-also made a Rainfall Prediction AI which allows me to take the entire world rainfall data of the Earth and make future predictions on the rainfall pattern with
-an accuracy of 90%. Another currently ongoing project is Computer Vision, which uses three different convolutional AI models attempting to mimic the human
+also made a Rainfall Prediction AI which allows me to take the entire world rainfall data and make future predictions on the rainfall pattern with
+an accuracy of 90%. Another ongoing project is Computer Vision, which uses three different convolutional AI models attempting to mimic the human
 players in the game Minecraft. Among the various projects, these were my top three projects which make me proud.` ,
         BtnShow: 'true',
         BtnLabel:"Visit Projects",
@@ -66,6 +66,9 @@ export const InfoDataConnections = [
         Para1: ()=>{
             return (
                 <>
+                <p>
+                    I am active in the following sites and I can be reached to via these platforms for non buisness related queries.
+                </p>
                     <ul>
                         <li> Discord - Benzo#5968 </li>
                         <li> Instagram - @darsh_kachroo </li>
@@ -87,6 +90,7 @@ export const InfoDataContact = [
     {
         Heading: 'Email',
         Para1: "Contact me at kachroo.darsh@gmail.com",
+        Para1: "Contact me at kachroo.darsh@gmail.com or on linkedin (Darsh Kachroo) for buisness related queries.",
         Para2: "A reply will be provided within 1-2 days. Till then please check out the Projects section",
         BtnShow: 'true',
         BtnLabel:"Go to Projects",
@@ -160,7 +164,7 @@ predictions. Our model is trained by combining several neural networks which are
         link:"/project1",
         image: Model,
         reverse: 'false',
-        delay:  
+        delay:  100,
     },
     {
         Heading: 'Minecraft Vision (in progress) --Top Project-3',
@@ -233,7 +237,7 @@ explore the data and make meaningful predictions.` ,
                     rain. A lower cutoff would have resulted in a cluttered view and a hard time for the Neural Network to make predictions.
                 </li><br></br>
                 <li>
-                    The image shows cluttering increasing as cutoff is increased from 0.5mm/day -> 1mm/day -> 5mm/day
+                    The image shows cluttering increasing as cutoff is increased from 0.5mm/day -{'>'} 1mm/day -{'>'} 5mm/day
                 </li><br></br>
             </ul>
         ),
@@ -351,7 +355,7 @@ representative of the actual accuracy. Currently, I'm working on expanding the d
                 </li><br />
             </ul>
         ),
-        Para2: `TFDS was a new experience altogether, and it was tedious to customize the hyperparameters. My training strategy uses the Mean Squared Error (MSE), an unconventional loss function.
+        Para2: `TFDS was a new experience altogether, it was tedious to customize the hyperparameters. My training strategy uses the Mean Squared Error (MSE), an unconventional loss function.
 Categorial Cross-Entropy (CCE) is usually used to learn patterns for this task, but MSE learned faster than CCE.` ,
         BtnShow: 'false',
         BtnLabel:"",
