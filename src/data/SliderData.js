@@ -9,7 +9,7 @@ export const SliderData = [
         img: Npm,
         label:'View Project',
         description:'Self made Neural Network package',
-        path: '', // TODO: Add direct link
+        path: '',
         href:"https://www.npmjs.com/package/@death_raider/neural-network",
         alt: "NPM project"
     },
