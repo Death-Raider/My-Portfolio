@@ -18,21 +18,34 @@ import Process from '../images/Process.png'
 export const InfoDataAbout = [
     {
         Heading: "About me",
-        Para1: `Hello everyone! I'm Darsh Kachroo, and I have a strong passion for AI/ML. My ultimate goal is to become a skilled data
-scientist and researcher in this exciting field.\n
-With expertise in web development, data science, and AI/ML, I bring a diverse set of skills to the table. In web development, I am proficient 
-in JavaScript and have hands-on experience with popular frameworks like React for frontend development and Node.js for backend development. I 
-have also worked on creating and training Neural Networks, expanding my knowledge in the realm of AI.` ,
-        Para2: `In the realm of AI development, I specialize in Python. I am well-versed in using frameworks such as TensorFlow, PyTorch, and OpenCV 
-(with and without CUDA) for AI model development. Additionally, I leverage libraries like tkinter, matplotlib, scipy, and pandas for effective data visualization.\n
-Apart from my technical skills, I have a keen interest in mathematics. I have actively pursued research regarding the visualization and application of complex 
-matrices, providing valuable insights in the field. Currently, I am engaged in solving nonlinear systems of fractional differential equations under the guidance 
-of Dr. Kailash Yadav and Dr. Abhishek.\n
-While my main focus has been on AI/ML and web development, I have also dabbled in C++ for personal projects. Although my proficiency in the language is limited, 
-I possess a strong logical foundation that allows me to navigate through C++ programming.\n
-I am always seeking opportunities to grow and contribute to groundbreaking projects in AI/ML. If you're looking for a dedicated and enthusiastic professional
-with a solid foundation in web development and expertise in AI/ML technologies, I would love to connect and explore potential collaborations.
-`,
+        Para1: ()=>{
+            return (
+            <p>
+                Hello everyone! I'm Darsh Kachroo, and I have a strong passion for AI/ML. My ultimate goal is to become a skilled data
+                scientist and researcher in this exciting field.
+                <br></br>
+                With expertise in web development, data science, and AI/ML, I bring a diverse set of skills to the table. In web development, I am proficient 
+                in JavaScript and have hands-on experience with popular frameworks like React for frontend development and Node.js for backend development. I 
+                have also worked on creating and training Neural Networks, expanding my knowledge in the realm of AI.
+            </p>
+        )}
+ ,
+        Para2: ()=>{
+            return (
+            <p>
+                In the realm of AI development, I specialize in Python. I am well-versed in using frameworks such as TensorFlow, PyTorch, and OpenCV 
+                (with and without CUDA) for AI model development. Additionally, I leverage libraries like tkinter, matplotlib, scipy, and pandas for effective data visualization.\n
+                Apart from my technical skills, I have a keen interest in mathematics. I have actively pursued research regarding the visualization and application of complex 
+                matrices, providing valuable insights in the field. Currently, I am engaged in solving nonlinear systems of fractional differential equations under the guidance 
+                of Dr. Kailash Yadav and Dr. Abhishek.
+                <br></br>
+                While my main focus has been on AI/ML and web development, I have also dabbled in C++ for personal projects. Although my proficiency in the language is limited, 
+                I possess a strong logical foundation that allows me to navigate through C++ programming.
+                <br></br>
+                I am always seeking opportunities to grow and contribute to groundbreaking projects in AI/ML. If you're looking for a dedicated and enthusiastic professional
+                with a solid foundation in web development and expertise in AI/ML technologies, I would love to connect and explore potential collaborations.
+            </p>
+        )},
         BtnShow: 'true',
         BtnLabel:"View Resume",
         link:"",
@@ -46,14 +59,18 @@ with a solid foundation in web development and expertise in AI/ML technologies, 
         Para1: `My professional interests lie in vast topics like Linear Algebra, Calculus, Machine Learning, Organic Chemistry, Kinematics, and
 Quantum-Mechanics, whereas my personal interests are working out, reading novels, and participating in sports like football. I created a good balance
 between my professional and personal interests which reduced burnout and increased my productivity.`,
-        Para2: `My accomplishments are few, but they carry deeply personal meaning to me. I have made a Machine Learning Package on NPM from scratch, and it
-was the project that allowed me to apply and test AI theory firsthand, boosting my confidence. I learned a lot from this experience. Building on that, I have
-also made a Rainfall Prediction AI which allows me to take the entire world rainfall data and make future predictions on the rainfall pattern with
-an accuracy of 90%. Another ongoing project is Computer Vision, which uses three different convolutional AI models attempting to mimic the human
-players in the game Minecraft. Among the various projects, these were my top three projects which make me proud.` ,
+        Para2: ()=>{
+            return (
+                <p>
+                    My accomplishments in the field of reasearch include publishing a research paper titled 
+                    "DRONE-BASED WEED AND DISEASE DETECTION IN AGRICULTURAL FIELDS: A YOLOv8 ALGORITHM APPROACH" which has been published in the esteemed IEEE Xplore
+                    based on my presentation in the 7th CICT conference'23.
+                </p>
+        )} ,
         BtnShow: 'true',
-        BtnLabel:"Visit Projects",
-        link:"/projects",
+        BtnLabel:"View Publication",
+        link:"",
+        href:"https://ieeexplore.ieee.org/document/10455507",
         image: "",
         reverse: 'false',
         delay: 100
