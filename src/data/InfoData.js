@@ -49,7 +49,7 @@ export const InfoDataAbout = [
         BtnShow: 'true',
         BtnLabel:"View Resume",
         link:"",
-        href:"https://drive.google.com/file/d/1qkXwxS0FmdRBt1QHA5TbARcGuxBlx7op/view?usp=sharing",
+        href:"https://drive.google.com/file/d/1_BsAlobU3FeJkTM7g1EA3hkkwySgwMwb/view?usp=drive_link",
         image: Me1,
         reverse: 'false',
         delay: 100
@@ -62,15 +62,43 @@ between my professional and personal interests which reduced burnout and increas
         Para2: ()=>{
             return (
                 <p>
-                    My accomplishments in the field of reasearch include publishing a research paper titled 
-                    "DRONE-BASED WEED AND DISEASE DETECTION IN AGRICULTURAL FIELDS: A YOLOv8 ALGORITHM APPROACH" which has been published in the esteemed IEEE Xplore
-                    based on my presentation in the 7th CICT conference'23.
+                    My accomplishments in the field of reasearch include:
+                    <ul>
+                        <li>
+                            Lead the research on creating a drone-based weed and disease detection model in agricultural fields to maximize crop health.
+                            <ul>
+                                <li>We presented our work in the 7th IEEE Conference on Information and Communication
+                                Technology at IIITDM-Jabalpur.</li>
+                                <li>Obtaining and processing the dataset, hyperparameter tuning of YOLOv8 model to get the
+                                best accuracy and inference speed trade-off.</li>
+                            </ul>
+                            <a href="doi.org/10.1109/CICT59886.2023.10455507">View Publication</a>
+                        </li>
+                        <li>
+                            I worked with industrial data on the flow forming process to create a predictive model for the accurate prediction of springback. The data processing included various challenges, such
+                            as dataset shift and few observations.
+                            <br></br>
+                            My work comprised of:
+                            <ul>
+                                <li> Comprehensive analysis of the dataset to make inferences and comments on the data. </li>
+                                <li> Feature extraction and selection are based on analysis. </li>
+                                <li>Creation and testing of various models, ranging from pretrained to custom architecture
+                                models. </li>
+                                <li> Perform analysis on each model and provide insight into the results obtained. </li>
+                                <li> Perform statistical analysis on the predictions and the data. </li>
+                                <li> Prioritized and organized tasks to efficiently accomplish service goals. </li>
+                                <li> Optimized model parameters through hyperparameter tuning techniques such as grid search
+                                and cross-validation. </li>
+                            </ul>
+                            <a href='doi.org/10.1007/978-981-97-4324-7_33'>View Publication</a>
+                        </li>
+                    </ul>
                 </p>
         )} ,
-        BtnShow: 'true',
-        BtnLabel:"View Publication",
+        BtnShow: 'false',
+        BtnLabel:"",
         link:"",
-        href:"https://ieeexplore.ieee.org/document/10455507",
+        href:"",
         image: "",
         reverse: 'false',
         delay: 100
@@ -86,7 +114,7 @@ export const InfoDataConnections = [
                     I am active in the following sites and I can be reached to via these platforms for non buisness related queries.
                 </p>
                     <ul>
-                        <li> Discord - Benzo#5968 </li>
+                        <li>LinkedIn - Darsh Kachroo</li>
                         <li> Instagram - @darsh_kachroo </li>
                         <li> NPM - @death_raider  </li>
                         <li> Github - Death-Raider </li>
