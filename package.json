@@ -15,7 +15,6 @@
     "expo": "~44.0.1",
     "expo-splash-screen": "~0.14.1",
     "expo-status-bar": "~1.2.0",
-    "node": "15.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-icons": "^4.3.1",
