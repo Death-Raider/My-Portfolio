@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#041f26"/>
+      <stop offset="1" stop-color="#0b3a45"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="350" cy="250" r="400" fill="url(#glow)"/>
+  <circle cx="1300" cy="680" r="420" fill="url(#glow)"/>
+  <!-- agent trajectories curving to avoid each other -->
+  <g fill="none" stroke-width="3">
+    <path d="M 100 700 C 500 680 620 420 900 400 S 1400 330 1550 300" stroke="#2dd4bf" stroke-opacity="0.6"/>
+    <path d="M 60 300 C 420 320 640 520 940 540 S 1380 620 1560 640" stroke="#67e8f9" stroke-opacity="0.5"/>
+    <path d="M 200 120 C 560 180 700 300 1020 280 S 1420 180 1540 160" stroke="#5eead4" stroke-opacity="0.35" stroke-dasharray="10 14"/>
+    <path d="M 140 850 C 520 800 760 660 1080 680 S 1440 760 1580 780" stroke="#99f6e4" stroke-opacity="0.3" stroke-dasharray="10 14"/>
+  </g>
+  <!-- avoidance radius rings around agents -->
+  <g fill="none" stroke="#2dd4bf" stroke-opacity="0.25" stroke-width="2">
+    <circle cx="900" cy="400" r="70"/>
+    <circle cx="940" cy="540" r="70"/>
+    <circle cx="1020" cy="280" r="50"/>
+  </g>
+  <g fill="#5eead4">
+    <circle cx="900" cy="400" r="14"/>
+    <circle cx="940" cy="540" r="14"/>
+    <circle cx="1020" cy="280" r="10" fill-opacity="0.8"/>
+    <circle cx="1080" cy="680" r="10" fill-opacity="0.8"/>
+    <circle cx="100" cy="700" r="8" fill-opacity="0.6"/>
+    <circle cx="60" cy="300" r="8" fill-opacity="0.6"/>
+  </g>
+  <g fill="#ffffff" fill-opacity="0.06">
+    <circle cx="250" cy="500" r="4"/><circle cx="450" cy="80" r="3"/><circle cx="700" cy="820" r="4"/>
+    <circle cx="1200" cy="120" r="3"/><circle cx="1350" cy="420" r="4"/><circle cx="1500" cy="60" r="3"/>
+  </g>
+</svg>

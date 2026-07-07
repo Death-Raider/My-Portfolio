@@ -1,41 +1,39 @@
-import CMatrix from "../images/Complex_Matrix.png"
-import Model from '../images/model.png'
-import Npm from '../images/NPM.png'
-import Minecraft from '../images/Minecraft.png'
+import HeroHipo from '../images/hero_hipo.svg'
+import HeroRL from '../images/hero_rl.svg'
+import HeroProjects from '../images/hero_projects.svg'
+import TradingSurface from '../images/trading_surface.png'
 
 export const SliderData = [
     {
-        title: "NPM package",
-        img: Npm,
+        title: "HiPO: LLM Reasoning Research",
+        img: HeroHipo,
         label:'View Project',
-        description:'Self made Neural Network package',
-        path: '',
-        href:"https://www.npmjs.com/package/@death_raider/neural-network",
-        alt: "NPM project"
+        description:'First-authored preference optimization research for LLMs, published on arXiv',
+        path: '/project3',
+        alt: "HiPO research"
     },
     {
-        title: "Rainfall Predictor",
-        img: Model,
+        title: "Multi-Agent RL Collision Avoidance",
+        img: HeroRL,
         label:'View Project',
-        description:"A combination of multiple AI's to predict rainfall patterns",
-        path: '/project1',
-        alt: "Rainfall Predictor"
+        description:'Curriculum learning with a novel collision pressure metric',
+        path: '/project4',
+        alt: "Reinforcement learning collision avoidance"
     },
     {
-        title: "Minecraft Vision AI",
-        img: Minecraft,
+        title: "PDE-Based Algorithmic Trading",
+        img: TradingSurface,
         label:'View Project',
-        description:'Using 2 AI to see the Minecraft world',
-        path: '/project2',
-        alt: "Minecraft Vision AI"
+        description:'A MetaTrader5 auto trader driven by stochastic PDE first-passage probabilities',
+        path: '/project5',
+        alt: "Algorithmic trading"
     },
     {
-        title: "Complex Matrix visualized",
-        img: CMatrix,
-        label:'View Project',
-        description:'Providing key insight to their workings',
-        path: '',
-        href: "https://www.youtube.com/watch?v=BOkwMR9-KLU",
-        alt: "Complex Matrix"
+        title: "Personal Projects Collection",
+        img: HeroProjects,
+        label:'View All Projects',
+        description:'RL agents, algorithmic trading, robotics, and more',
+        path: '/projects',
+        alt: "Personal projects"
     }
 ]
