@@ -66,7 +66,7 @@ export const InfoDataAbout = [
         BtnShow: 'true',
         BtnLabel:"View Resume",
         link:"",
-        href:"https://drive.google.com/file/d/1NVbMzTroQPzyChtLu2877UZDIzGKgcFZ/view?usp=sharing",
+        href:"https://drive.google.com/file/d/1jMzC3Givdklwgr2uXk_aYFE0Lbd1V5IQ/view?usp=sharing",
         image: Me1,
         reverse: 'false',
         delay: 100
