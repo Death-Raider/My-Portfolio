@@ -29,9 +29,8 @@ export const InfoDataAbout = [
         Para1: ()=>{
             return (
             <p>
-                Hello everyone! I'm Darsh Kachroo, an AI/ML researcher and developer. I am completing my B.Tech in Electrical and Computer
-                Engineering at Vellore Institute of Technology, Chennai (2022-2026), and joining Columbia University for a Master of Science
-                in AI and Advanced Computing (2026-2028).
+                Hello everyone! I'm Darsh Kachroo, an AI/ML researcher and developer. I am a final-year B.Tech student in Electrical and Computer
+                Engineering at Vellore Institute of Technology, Chennai (2022-2027), applying for PhD programs in Fall 2027.
                 <br></br>
                 My research interest lies in understanding the black-box nature of LLMs, with a focus on interpretability and their learning
                 ability. My long-term goal is to bridge the gap between model capability and interpretability, ensuring AI systems are not
@@ -188,8 +187,8 @@ export const InfoDataContact = [
 export const InfoDataHome = [
     {
         Heading: 'About Me',
-        Para1: `Hello everyone! I'm Darsh Kachroo, an AI/ML researcher and developer. I am completing my B.Tech in Electrical and Computer Engineering at
-VIT Chennai and joining Columbia University for my M.S. in AI and Advanced Computing. My research focuses on LLM alignment and interpretability.\n
+        Para1: `Hello everyone! I'm Darsh Kachroo, an AI/ML researcher and developer. I am a final-year B.Tech student in Electrical and Computer Engineering at
+VIT Chennai, applying for PhD programs in Fall 2027. My research focuses on LLM alignment and interpretability.\n
 I have two published papers - drone-based crop disease detection (IEEE CICT 2023, cited by a US patent) and springback prediction on industrial data
 (ICFAMMT 2024, Springer Nature) - plus HiPO, a first-authored hierarchical preference optimization method for LLM reasoning developed at Algoverse
 (arXiv 2026), and a curriculum learning framework for multi-robot collision avoidance under journal review. I have also built production ML systems
